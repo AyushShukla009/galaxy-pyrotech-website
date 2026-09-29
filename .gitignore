@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+Galaxy_Pyrotech_Website.zip
+scratch/
