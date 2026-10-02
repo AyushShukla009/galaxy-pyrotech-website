@@ -3,7 +3,8 @@
 > **Transform Your Event Into A Royal Spectacle**  
 > Premier special effects for luxury weddings, royal varmala entries, grand sangeets, and celebrations across Delhi NCR & Pan-India.
 
-[![Live Website](https://img.shields.io/badge/Live_Site-galaxy--pyrotech.vercel.app-DE8026?style=for-the-badge&logo=vercel&logoColor=white)](https://galaxy-pyrotech.vercel.app)
+[![Live Website](https://img.shields.io/badge/Live_Site-galaxypyrotech.com-DE8026?style=for-the-badge&logo=vercel&logoColor=white)](https://galaxypyrotech.com)
+[![Vercel Mirror](https://img.shields.io/badge/Vercel_App-galaxy--pyrotech.vercel.app-190B05?style=for-the-badge&logo=vercel&logoColor=white)](https://galaxy-pyrotech.vercel.app)
 [![License](https://img.shields.io/badge/License-Proprietary-black?style=for-the-badge)](LICENSE)
 
 ---
@@ -44,8 +45,10 @@ Featuring an evocative dark-luxury aesthetic inspired by palace nights, golden e
 
 ## 🚀 Live Deployment
 
-The website is continuously deployed on Vercel:
-🔗 **[https://galaxy-pyrotech.vercel.app](https://galaxy-pyrotech.vercel.app)**
+The website is continuously deployed on Vercel with automated SSL:
+- 🌐 **Primary Custom Domain:** **[https://galaxypyrotech.com](https://galaxypyrotech.com)**
+- 🌐 **Subdomain Mirror:** **[https://www.galaxypyrotech.com](https://www.galaxypyrotech.com)**
+- ⚡ **Vercel Mirror:** **[https://galaxy-pyrotech.vercel.app](https://galaxy-pyrotech.vercel.app)**
 
 ---
 
