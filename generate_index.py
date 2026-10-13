@@ -32,8 +32,8 @@ def get_html_head():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="color-scheme" content="dark">
-  <meta name="theme-color" content="#030201">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#FBF8F3">
 
   <title>Galaxy Pyrotech Traders | Luxury Wedding &amp; Event Special Effects Noida &amp; Delhi NCR</title>
   <meta name="description" content="Galaxy Pyrotech Traders delivers luxury special effects for grand weddings, royal varmala entries, receptions, and celebrations across Noida, Greater Noida, Delhi NCR &amp; Pan-India. Cold Pyro, Sparkular, Low Fog Dry Ice, Sky Fireworks &amp; Colour Smoke.">
@@ -58,10 +58,10 @@ def get_html_head():
   <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
   <link rel="apple-touch-icon" href="assets/logo.jpg">
 
-  <!-- Fonts: Sora (headings) + Manrope (body) -->
+  <!-- Fonts: Cormorant Garamond (Editorial Luxury Serif) + Plus Jakarta Sans (Clean Body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Structured data -->
   <script type="application/ld+json">

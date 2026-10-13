@@ -264,7 +264,7 @@ def get_javascript():
             decay: Math.random() * 0.02 + 0.015,
             alpha: 1,
             size: Math.random() * 2.8 + 1.2,
-            color: Math.random() > 0.3 ? '#E3C9A8' : '#DE8026'
+            color: Math.random() > 0.3 ? '#DFCAAE' : '#C4A482'
           });
         }
       }
@@ -305,14 +305,14 @@ def get_javascript():
               alpha: 1,
               decay: Math.random() * 0.02 + 0.012,
               size: Math.random() * 2.5 + 1.2,
-              color: Math.random() > 0.4 ? '#E3C9A8' : '#CBA482'
+              color: Math.random() > 0.4 ? '#DFCAAE' : '#C4A482'
             });
           }
         }
       }
 
       function createFireworksBurst(targetX, targetY) {
-        var colors = ['#DE8026', '#E3C9A8', '#F0EEEC', '#8C4A1A', '#FF9A3C'];
+        var colors = ['#C4A482', '#DFCAAE', '#FBF8F3', '#1E342B', '#E89840'];
         var count = 80;
         for (var i = 0; i < count; i++) {
           var angle = (Math.PI * 2 / count) * i + (Math.random() * 0.1);
@@ -335,7 +335,7 @@ def get_javascript():
       function createColourSmokePuffs(count) {
         var w = canvas ? canvas.parentElement.clientWidth : 960;
         var h = canvas ? canvas.parentElement.clientHeight : 480;
-        var smokeColors = ['rgba(222, 128, 38, ', 'rgba(219, 48, 105, ', 'rgba(203, 164, 130, ', 'rgba(235, 130, 60, '];
+        var smokeColors = ['rgba(196, 164, 130, ', 'rgba(219, 48, 105, ', 'rgba(30, 52, 43, ', 'rgba(223, 202, 174, '];
         var origins = [w * 0.25, w * 0.5, w * 0.75];
         origins.forEach(function (ox) {
           for (var i = 0; i < count; i++) {
@@ -359,7 +359,7 @@ def get_javascript():
       function createConfettiBlast(count) {
         var w = canvas ? canvas.parentElement.clientWidth : 960;
         var h = canvas ? canvas.parentElement.clientHeight : 480;
-        var confettiColors = ['#DE8026', '#E3C9A8', '#CBA482', '#FFFFFF', '#8C4A1A'];
+        var confettiColors = ['#1E342B', '#C4A482', '#DFCAAE', '#FFFFFF', '#274338'];
         for (var i = 0; i < count; i++) {
           var fromLeft = Math.random() > 0.5;
           simParticles.push({

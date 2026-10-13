@@ -1261,7 +1261,7 @@ def get_body():
       <button class="modal-close" id="callback-modal-close" type="button" aria-label="Close Dialog">
         <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
       </button>
-      <div style="width: 64px; height: 64px; border-radius: 50%; background: rgba(222, 128, 38, 0.15); border: 1px solid var(--amber); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem; color: var(--amber);">
+      <div style="width: 64px; height: 64px; border-radius: 50%; background: rgba(196, 164, 130, 0.2); border: 1px solid var(--soft-gold); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem; color: var(--forest-green);">
         <svg class="icon" style="width: 32px; height: 32px;" aria-hidden="true"><use href="#i-check"/></svg>
       </div>
       <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Callback Request Confirmed!</h3>
