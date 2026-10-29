@@ -17,6 +17,10 @@ class SiteValidator(HTMLParser):
             self.ids.add(attr_dict['id'])
         if tag == 'img' and 'src' in attr_dict:
             self.img_srcs.append(attr_dict['src'])
+        if tag == 'video' and 'poster' in attr_dict:
+            self.img_srcs.append(attr_dict['poster'])
+        if tag == 'source' and 'src' in attr_dict:
+            self.img_srcs.append(attr_dict['src'])
         if tag == 'a' and 'href' in attr_dict:
             self.links.append(attr_dict['href'])
         
@@ -67,7 +71,7 @@ def validate():
       'range-pyro', 'range-fog', 'range-sparkular', 'range-smoke', 'range-confetti',
       'calc-city', 'calc-event-type', 'calc-total-display', 'calc-summary-list', 'calc-wa-btn', 'calc-copy-btn',
       'preset-varmala', 'preset-baraat', 'preset-gala', 'preset-custom',
-      'gallery-grid', 'lightbox-modal', 'lightbox-img', 'lightbox-title', 'lightbox-desc',
+      'gallery-grid', 'lightbox-modal', 'lightbox-img', 'lightbox-video', 'lightbox-title', 'lightbox-desc',
       'lightbox-close-btn', 'lightbox-prev-btn', 'lightbox-next-btn', 'lightbox-wa-btn',
       'direct-booking-form', 'book-name', 'book-phone', 'book-date', 'book-venue', 'book-type',
       'submit-booking-wa', 'submit-callback', 'callback-modal', 'callback-ref-ticket',

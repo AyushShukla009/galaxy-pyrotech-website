@@ -8,3 +8,12 @@ venv/
 env/
 Galaxy_Pyrotech_Website.zip
 scratch/
+course_*
+delhi_police*
+deploy_*
+footer_*
+live_deployed_*
+vimarsh_*
+organize_media.py
+.vercel
+.env*

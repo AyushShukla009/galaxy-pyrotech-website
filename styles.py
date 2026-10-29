@@ -1098,6 +1098,53 @@ def get_css():
       background: var(--soft-gold-light);
     }
 
+    .hero__reel-pill {
+      position: absolute;
+      top: 22px;
+      left: 22px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.45rem 0.9rem;
+      background: rgba(30, 52, 43, 0.92);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(196, 164, 130, 0.55);
+      border-radius: 999px;
+      color: #FBF8F3;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+      z-index: 2;
+      transition: all 0.25s var(--ease);
+    }
+
+    .hero__reel-pill:hover {
+      background: var(--soft-gold);
+      color: var(--forest-green);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(196, 164, 130, 0.4);
+    }
+
+    .hero__reel-pill-icon {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--soft-gold);
+      color: var(--forest-green);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.65rem;
+      transition: all 0.2s ease;
+    }
+
+    .hero__reel-pill:hover .hero__reel-pill-icon {
+      background: var(--forest-green);
+      color: var(--soft-gold);
+    }
+
     /* ==========================================================================
        8. TRUST BAR
        ========================================================================== */
@@ -2055,6 +2102,191 @@ def get_css():
     .gallery-card:hover .gallery-card__zoom {
       opacity: 1;
       transform: scale(1);
+    }
+
+    /* ======================================================================
+       LIVE VIDEO REELS SHOWCASE
+       ====================================================================== */
+    .reels__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    @media (max-width: 991px) {
+      .reels__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+      }
+    }
+
+    .reel-card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: #14241E;
+      aspect-ratio: 9 / 16;
+      border: 1px solid rgba(196, 164, 130, 0.3);
+      box-shadow: 0 10px 30px rgba(30, 52, 43, 0.12);
+      cursor: pointer;
+      transition: all 0.35s var(--ease);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .reel-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--soft-gold);
+      box-shadow: 0 20px 45px rgba(30, 52, 43, 0.28);
+    }
+
+    .reel-card__video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.5s var(--ease);
+    }
+
+    .reel-card:hover .reel-card__video {
+      transform: scale(1.05);
+    }
+
+    .reel-card__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(30, 52, 43, 0.35) 0%, transparent 35%, rgba(20, 36, 30, 0.95) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1.25rem;
+      pointer-events: none;
+      transition: background 0.3s ease;
+    }
+
+    .reel-card__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .reel-card__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(30, 52, 43, 0.88);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      color: var(--soft-gold);
+      border: 1px solid rgba(196, 164, 130, 0.45);
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.25rem 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .reel-card__badge-live {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #E55353;
+      box-shadow: 0 0 8px #E55353;
+      display: inline-block;
+      animation: pulse-dot 1.8s infinite;
+    }
+
+    .reel-card__duration {
+      background: rgba(0, 0, 0, 0.6);
+      color: #FBF8F3;
+      border-radius: 999px;
+      padding: 0.2rem 0.55rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+    }
+
+    .reel-card__play {
+      align-self: center;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: rgba(196, 164, 130, 0.92);
+      color: var(--forest-green);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 24px rgba(196, 164, 130, 0.6);
+      transition: all 0.3s var(--ease);
+      opacity: 0.95;
+    }
+
+    .reel-card:hover .reel-card__play {
+      transform: scale(1.15);
+      background: #FFFFFF;
+      opacity: 1;
+      box-shadow: 0 0 32px rgba(255, 255, 255, 0.8);
+    }
+
+    .reel-card__meta {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .reel-card__title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #FBF8F3;
+      line-height: 1.25;
+      margin: 0;
+    }
+
+    .reel-card__sub {
+      font-size: 0.8rem;
+      color: var(--soft-gold);
+      margin: 0;
+    }
+
+    .reel-card__venue {
+      font-size: 0.75rem;
+      color: var(--soft-gold-light);
+      margin: 0;
+    }
+
+    /* Video badges on gallery cards */
+    .gallery-card--video .gallery-card__video-badge {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: rgba(30, 52, 43, 0.9);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      color: var(--soft-gold);
+      border: 1px solid rgba(196, 164, 130, 0.5);
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.25rem 0.65rem;
+      z-index: 2;
+    }
+
+    /* Lightbox Video */
+    .lightbox__video {
+      max-width: 90vw;
+      max-height: 65vh;
+      aspect-ratio: 9 / 16;
+      border-radius: var(--radius);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+      border: 1px solid rgba(196, 164, 130, 0.5);
+      outline: none;
+      background: #000000;
     }
 
     /* Fullscreen Lightbox Modal */
@@ -3187,6 +3419,18 @@ def get_css():
         padding: 0.45rem 0.8rem !important;
         font-size: 0.78rem !important;
       }
+      /* Video Reels Mobile */
+      .reels__grid {
+        grid-template-columns: 1fr !important;
+        gap: 1.25rem !important;
+        width: 100% !important;
+      }
+      .reel-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        aspect-ratio: 9 / 14 !important;
+      }
+
       .gallery-grid {
         grid-template-columns: 1fr !important;
         gap: 1.25rem !important;
