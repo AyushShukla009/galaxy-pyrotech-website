@@ -54,6 +54,9 @@ def get_html_head():
   <meta name="twitter:description" content="Premier special effects for luxury weddings and events in Noida &amp; Delhi NCR.">
   <meta name="twitter:image" content="assets/varmala_stage.jpg">
 
+  <!-- Preload Critical LCP Hero Image for Instant Loading -->
+  <link rel="preload" as="image" href="assets/hero_varmala_palace.webp" type="image/webp" fetchpriority="high">
+
   <!-- Favicon: Official Galaxy Pyrotech logo -->
   <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
   <link rel="apple-touch-icon" href="assets/logo.jpg">

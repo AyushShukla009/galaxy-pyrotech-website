@@ -17,3 +17,4 @@ vimarsh_*
 organize_media.py
 .vercel
 .env*
+vendor/

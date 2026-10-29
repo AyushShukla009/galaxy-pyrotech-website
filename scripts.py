@@ -19,190 +19,190 @@ def get_javascript():
 
       var GALLERY_DATA = [
         {
-          src: 'assets/hero_varmala_palace.jpg',
+          src: 'assets/hero_varmala_palace.webp',
           title: 'Palace Varmala & Fireworks',
           desc: 'Bride and groom exchanging garlands on grand temple stage amidst cold pyro fountains, sky fireworks, and rose petal shower.',
           category: 'varmala',
           venue: 'Grand Temple Stage, Noida'
         },
         {
-          src: 'assets/cold_pyro_fan_stage.jpg',
+          src: 'assets/cold_pyro_fan_stage.webp',
           title: 'Fan-Burst Cold Pyro Stage',
           desc: 'Dramatic multi-angle fan burst cold pyro sparkular fountains shooting upward behind the couple.',
           category: 'varmala',
           venue: 'Grand Celebration Lawn'
         },
         {
-          src: 'assets/rotating_catherine_wheels.jpg',
+          src: 'assets/rotating_catherine_wheels.webp',
           title: 'Rotating Catherine Wheels',
           desc: 'Twin rotating Catherine wheels spinning golden spark blades on either side of the couple.',
           category: 'varmala',
           venue: 'Floral Stage, Noida'
         },
         {
-          src: 'assets/bridal_entry_sparkular_aisle.jpg',
+          src: 'assets/bridal_entry_sparkular_aisle.webp',
           title: 'Royal Bridal Aisle Entry',
           desc: 'Bride walking down the aisle framed by towering 4-meter smokeless cold pyro fountains.',
           category: 'entry',
           venue: 'Palace Walkway, Greater Noida'
         },
         {
-          src: 'assets/royal_ghodi_flame_entry.jpg',
+          src: 'assets/royal_ghodi_flame_entry.webp',
           title: 'Ghodi Baraat with Flame FX',
           desc: 'Groom arriving on white horse flanked by choreographed vertical flame machines and chandeliers.',
           category: 'entry',
           venue: 'Red Carpet Royal Lawn, Noida'
         },
         {
-          src: 'assets/baraat_carriage_sparkler_gun.jpg',
+          src: 'assets/baraat_carriage_sparkler_gun.webp',
           title: 'Royal Carriage & Pyro Guns',
           desc: 'Groom celebrating in flower-decked carriage with handheld sparkler guns and metallic confetti.',
           category: 'entry',
           venue: 'Floral Carriage Procession, Delhi NCR'
         },
         {
-          src: 'assets/royal_banner_entry.jpg',
+          src: 'assets/royal_banner_entry.webp',
           title: 'Royal Banner Guard of Honour',
           desc: 'Traditional velvet and gold royal insignia banners topped with shooting cold spark fountains.',
           category: 'entry',
           venue: 'Heritage Palace Courtyard'
         },
         {
-          src: 'assets/rolls_royce_pyro_entry.jpg',
+          src: 'assets/rolls_royce_pyro_entry.webp',
           title: 'Vintage Rolls-Royce Entry',
           desc: 'Groom arriving in vintage convertible Rolls-Royce holding twin cold pyro sparkler torches.',
           category: 'entry',
           venue: 'Private Estate, Delhi NCR'
         },
         {
-          src: 'assets/royal_carriage_baraat_fan.jpg',
+          src: 'assets/royal_carriage_baraat_fan.webp',
           title: 'Floral Carriage Spark Wings',
           desc: 'Groom smiling in royal vintage carriage with fan sparklers bursting behind him.',
           category: 'entry',
           venue: 'Royal Heritage Lawn'
         },
         {
-          src: 'assets/bridal_glass_ramp_pyro.jpg',
+          src: 'assets/bridal_glass_ramp_pyro.webp',
           title: 'Mirrored Ramp Bridal Walk',
           desc: 'Smiling bride on mirrored glass ramp with cold sparklers exploding around her.',
           category: 'entry',
           venue: 'Grand Banquet Walkway'
         },
         {
-          src: 'assets/low_fog_sparkler_entry.jpg',
+          src: 'assets/low_fog_sparkler_entry.webp',
           title: 'Low Fog & Sparkler Arch',
           desc: 'Couple walking through knee-deep dry ice clouds with friends holding a sparkler gun archway overhead.',
           category: 'sangeet',
           venue: 'Grand Ballroom, South Delhi'
         },
         {
-          src: 'assets/low_fog_twirl_dance.jpg',
+          src: 'assets/low_fog_twirl_dance.webp',
           title: 'Twirling On Clouds',
           desc: 'Romantic first dance enveloped in thick, odorless low fog with golden sparkler canopy.',
           category: 'sangeet',
           venue: 'Luxury Banquet, Noida'
         },
         {
-          src: 'assets/ballroom_first_dance_snow.jpg',
+          src: 'assets/ballroom_first_dance_snow.webp',
           title: 'Dance in Snow & Cold Sparks',
           desc: 'Mirrored runway dance surrounded by cold spark fountains and falling simulated snow crystals.',
           category: 'sangeet',
           venue: 'Crystal Ballroom, Delhi NCR'
         },
         {
-          src: 'assets/sangeet_pyro_gun_tunnel.jpg',
+          src: 'assets/sangeet_pyro_gun_tunnel.webp',
           title: 'Sangeet Sparkler Gun Tunnel',
           desc: 'High-energy sangeet entry with guests creating an electric sparkler gun tunnel for the dancing couple.',
           category: 'sangeet',
           venue: 'Courtyard Stage, Greater Noida'
         },
         {
-          src: 'assets/sangeet_gold_couple_dance.jpg',
+          src: 'assets/sangeet_gold_couple_dance.webp',
           title: 'Sparkler Arch Celebration',
           desc: 'Couple dancing in shimmering outfits under archways of brilliant gold cold pyro spark fountains.',
           category: 'sangeet',
           venue: 'Evening Sangeet Lawn, Noida'
         },
         {
-          src: 'assets/reception_fairy_light_arch.jpg',
+          src: 'assets/reception_fairy_light_arch.webp',
           title: 'Fairytale Light Canopy Walk',
           desc: 'Reception couple walking under fairy light canopy with cold sparkler torches.',
           category: 'sangeet',
           venue: 'Open Lawn Reception'
         },
         {
-          src: 'assets/sangeet_red_lehenga_pyro.jpg',
+          src: 'assets/sangeet_red_lehenga_pyro.webp',
           title: 'Red Carpet Sparkler Walk',
           desc: 'Couple in bright celebratory attire walking hand in hand with sparkler guns forming an arch.',
           category: 'sangeet',
           venue: 'Sangeet Night Courtyard'
         },
         {
-          src: 'assets/sky_fireworks_mandap.jpg',
+          src: 'assets/sky_fireworks_mandap.webp',
           title: 'Royal Mandap Sky Fireworks',
           desc: 'Brilliant cyan, magenta, and gold aerial fireworks bursting high above the floral mandap.',
           category: 'fireworks',
           venue: 'Destination Heritage Mandap, Rajasthan'
         },
         {
-          src: 'assets/colour_smoke_rainbow_mandap.jpg',
+          src: 'assets/colour_smoke_rainbow_mandap.webp',
           title: 'Daytime Rainbow Smoke Mandap',
           desc: 'Towering rainbow color smoke plumes shooting 50 feet into the blue sky during daytime varmala.',
           category: 'smoke',
           venue: 'Open Garden Lawn, Sector 22 Noida'
         },
         {
-          src: 'assets/haldi_procession_smoke.png',
+          src: 'assets/haldi_procession_smoke.webp',
           title: 'Haldi & Holi Smoke Carnival',
           desc: 'Vibrant yellow, pink, and purple daytime smoke clouds dancing with dhol players at Haldi ceremony.',
           category: 'smoke',
           venue: 'Poolside Lawn, Delhi NCR'
         },
         {
-          src: 'assets/lake_palace_colour_smoke.jpg',
+          src: 'assets/lake_palace_colour_smoke.webp',
           title: 'Lake Palace Crescent Smoke',
           desc: 'Grand circular crescent floral stage overlooking the lake with massive multi-colored day smoke plumes.',
           category: 'smoke',
           venue: 'Lake Palace Terrace, Udaipur'
         },
         {
-          src: 'assets/colour_smoke_beach_varmala.jpg',
+          src: 'assets/colour_smoke_beach_varmala.webp',
           title: 'Beachside Varmala Color Smoke',
           desc: 'Pastel color smoke plumes rising behind beachfront floral mandap during sunset pheras.',
           category: 'smoke',
           venue: 'Coastal Beach Resort'
         },
         {
-          src: 'assets/reels/reel_varmala_rotating_wheel_poster.jpg',
+          src: 'assets/reels/reel_varmala_rotating_wheel_poster.webp',
           video: 'assets/reels/reel_varmala_rotating_wheel.mp4',
-          poster: 'assets/reels/reel_varmala_rotating_wheel_poster.jpg',
+          poster: 'assets/reels/reel_varmala_rotating_wheel_poster.webp',
           title: 'Rotating Catherine Wheel (Live Reel)',
           desc: 'Live video of 360-degree rotating cold pyro Catherine wheel and spark fountains during Varmala.',
           category: 'reels',
           venue: 'Grand Varmala Stage, Noida'
         },
         {
-          src: 'assets/reels/reel_palace_stage_pyro_poster.jpg',
+          src: 'assets/reels/reel_palace_stage_pyro_poster.webp',
           video: 'assets/reels/reel_palace_stage_pyro.mp4',
-          poster: 'assets/reels/reel_palace_stage_pyro_poster.jpg',
+          poster: 'assets/reels/reel_palace_stage_pyro_poster.webp',
           title: 'Palace Stage Cold Pyro (Live Reel)',
           desc: 'Live video of soaring cold pyro fountains illuminating the grand palace stage with rose petal shower.',
           category: 'reels',
           venue: 'Heritage Palace Lawn, Delhi NCR'
         },
         {
-          src: 'assets/reels/reel_midnight_sky_fireworks_poster.jpg',
+          src: 'assets/reels/reel_midnight_sky_fireworks_poster.webp',
           video: 'assets/reels/reel_midnight_sky_fireworks.mp4',
-          poster: 'assets/reels/reel_midnight_sky_fireworks_poster.jpg',
+          poster: 'assets/reels/reel_midnight_sky_fireworks_poster.webp',
           title: 'Midnight Sky Fireworks (Live Reel)',
           desc: 'Live video of high-altitude golden willow aerial fireworks shells lighting up the night sky.',
           category: 'reels',
           venue: 'Farmhouse Lawn Celebration'
         },
         {
-          src: 'assets/reels/reel_aerial_pyro_shells_poster.jpg',
+          src: 'assets/reels/reel_aerial_pyro_shells_poster.webp',
           video: 'assets/reels/reel_aerial_pyro_shells.mp4',
-          poster: 'assets/reels/reel_aerial_pyro_shells_poster.jpg',
+          poster: 'assets/reels/reel_aerial_pyro_shells_poster.webp',
           title: 'Pyrotechnic Sky Barrage (Live Reel)',
           desc: 'Live video of rapid aerial pyrotechnic shells soaring into the sky.',
           category: 'reels',

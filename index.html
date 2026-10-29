@@ -50,6 +50,9 @@
   <meta name="twitter:description" content="Premier special effects for luxury weddings and events in Noida &amp; Delhi NCR.">
   <meta name="twitter:image" content="assets/varmala_stage.jpg">
 
+  <!-- Preload Critical LCP Hero Image for Instant Loading -->
+  <link rel="preload" as="image" href="assets/hero_varmala_palace.webp" type="image/webp" fetchpriority="high">
+
   <!-- Favicon: Official Galaxy Pyrotech logo -->
   <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
   <link rel="apple-touch-icon" href="assets/logo.jpg">
@@ -3711,7 +3714,7 @@
       <!-- Brand Logo with Golden Rim -->
       <a class="brand" href="#home" aria-label="Galaxy Pyrotech Traders, Home">
         <div class="brand__logo-frame">
-          <img class="brand__logo" src="assets/logo.jpg" alt="Galaxy Pyrotech Logo" width="48" height="48">
+          <img class="brand__logo" src="assets/logo.webp" alt="Galaxy Pyrotech Logo" width="48" height="48" decoding="async">
         </div>
         <div class="brand__text">
           <span class="brand__name">Galaxy Pyrotech</span>
@@ -3852,7 +3855,7 @@
         <!-- Hero Visual Showcase Card -->
         <div class="hero__visual-wrap">
           <div class="hero__visual-card">
-            <img class="hero__visual-img" src="assets/hero_varmala_palace.jpg" alt="Galaxy Pyrotech grand royal varmala stage special effects with cold pyro and sky fireworks">
+            <img class="hero__visual-img" src="assets/hero_varmala_palace.webp" alt="Galaxy Pyrotech grand royal varmala stage special effects with cold pyro and sky fireworks" fetchpriority="high" decoding="async">
             <a class="hero__reel-pill" href="#reels" aria-label="Watch 4 Live Pyrotechnic Reels">
               <span class="hero__reel-pill-icon"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg></span>
               <span>Watch 4 Live Reels</span>
@@ -3918,7 +3921,7 @@
           <!-- 1. Cold Pyro -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/cold_pyro_fan_stage.jpg" alt="Fan-burst cold pyro sparkular fountains at luxury wedding stage" loading="lazy">
+              <img class="service-card__img" src="assets/cold_pyro_fan_stage.webp" alt="Fan-burst cold pyro sparkular fountains at luxury wedding stage" loading="lazy" decoding="async">
               <span class="service-card__badge">Indoor &amp; Outdoor</span>
             </div>
             <div class="service-card__body">
@@ -3942,7 +3945,7 @@
           <!-- 2. Low Fog -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/low_fog_sparkler_entry.jpg" alt="Couple walking through heavy dry ice low fog with sparkler archway" loading="lazy">
+              <img class="service-card__img" src="assets/low_fog_sparkler_entry.webp" alt="Couple walking through heavy dry ice low fog with sparkler archway" loading="lazy" decoding="async">
               <span class="service-card__badge">Zero Residue</span>
             </div>
             <div class="service-card__body">
@@ -3966,7 +3969,7 @@
           <!-- 3. Sparkular Waterfall -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/rotating_catherine_wheels.jpg" alt="Twin rotating cold pyro Catherine wheels and golden spark waterfalls" loading="lazy">
+              <img class="service-card__img" src="assets/rotating_catherine_wheels.webp" alt="Twin rotating cold pyro Catherine wheels and golden spark waterfalls" loading="lazy" decoding="async">
               <span class="service-card__badge">DMX Controlled</span>
             </div>
             <div class="service-card__body">
@@ -3990,7 +3993,7 @@
           <!-- 4. Sky Fireworks -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/sky_fireworks_mandap.jpg" alt="High-altitude aerial fireworks bursting above royal wedding floral mandap" loading="lazy">
+              <img class="service-card__img" src="assets/sky_fireworks_mandap.webp" alt="High-altitude aerial fireworks bursting above royal wedding floral mandap" loading="lazy" decoding="async">
               <span class="service-card__badge">Outdoor Spectacular</span>
             </div>
             <div class="service-card__body">
@@ -4014,7 +4017,7 @@
           <!-- 5. Colour Smoke -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/colour_smoke_rainbow_mandap.jpg" alt="Vibrant rainbow daytime colour smoke plumes shooting behind wedding mandap" loading="lazy">
+              <img class="service-card__img" src="assets/colour_smoke_rainbow_mandap.webp" alt="Vibrant rainbow daytime colour smoke plumes shooting behind wedding mandap" loading="lazy" decoding="async">
               <span class="service-card__badge">Daytime Special</span>
             </div>
             <div class="service-card__body">
@@ -4038,7 +4041,7 @@
           <!-- 6. Royal Varmala Package -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/royal_ghodi_flame_entry.jpg" alt="Grand Ghodi Baraat entry on red carpet with vertical flame machines and sparkulars" loading="lazy">
+              <img class="service-card__img" src="assets/royal_ghodi_flame_entry.webp" alt="Grand Ghodi Baraat entry on red carpet with vertical flame machines and sparkulars" loading="lazy" decoding="async">
               <span class="service-card__badge">Most Popular</span>
             </div>
             <div class="service-card__body">
@@ -4078,7 +4081,7 @@
         <div class="reels__grid">
           <!-- Reel 1: Rotating Catherine Wheel Varmala -->
           <div class="reel-card" data-reel-index="0" data-video="assets/reels/reel_varmala_rotating_wheel.mp4">
-            <video class="reel-card__video" muted loop playsinline preload="metadata" poster="assets/reels/reel_varmala_rotating_wheel_poster.jpg">
+            <video class="reel-card__video" muted loop playsinline preload="none" poster="assets/reels/reel_varmala_rotating_wheel_poster.webp">
               <source src="assets/reels/reel_varmala_rotating_wheel.mp4" type="video/mp4">
             </video>
             <div class="reel-card__overlay">
@@ -4099,7 +4102,7 @@
 
           <!-- Reel 2: Heritage Palace Cold Pyro Fountains -->
           <div class="reel-card" data-reel-index="1" data-video="assets/reels/reel_palace_stage_pyro.mp4">
-            <video class="reel-card__video" muted loop playsinline preload="metadata" poster="assets/reels/reel_palace_stage_pyro_poster.jpg">
+            <video class="reel-card__video" muted loop playsinline preload="none" poster="assets/reels/reel_palace_stage_pyro_poster.webp">
               <source src="assets/reels/reel_palace_stage_pyro.mp4" type="video/mp4">
             </video>
             <div class="reel-card__overlay">
@@ -4120,7 +4123,7 @@
 
           <!-- Reel 3: Midnight Sky Fireworks Finale -->
           <div class="reel-card" data-reel-index="2" data-video="assets/reels/reel_midnight_sky_fireworks.mp4">
-            <video class="reel-card__video" muted loop playsinline preload="metadata" poster="assets/reels/reel_midnight_sky_fireworks_poster.jpg">
+            <video class="reel-card__video" muted loop playsinline preload="none" poster="assets/reels/reel_midnight_sky_fireworks_poster.webp">
               <source src="assets/reels/reel_midnight_sky_fireworks.mp4" type="video/mp4">
             </video>
             <div class="reel-card__overlay">
@@ -4141,7 +4144,7 @@
 
           <!-- Reel 4: Aerial Pyrotechnic Cake Barrage -->
           <div class="reel-card" data-reel-index="3" data-video="assets/reels/reel_aerial_pyro_shells.mp4">
-            <video class="reel-card__video" muted loop playsinline preload="metadata" poster="assets/reels/reel_aerial_pyro_shells_poster.jpg">
+            <video class="reel-card__video" muted loop playsinline preload="none" poster="assets/reels/reel_aerial_pyro_shells_poster.webp">
               <source src="assets/reels/reel_aerial_pyro_shells.mp4" type="video/mp4">
             </video>
             <div class="reel-card__overlay">
@@ -4160,8 +4163,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
       </div>
     </section>
 
@@ -4455,7 +4456,7 @@
         <div class="gallery-grid" id="gallery-grid">
           <!-- 0. Palace Varmala & Fireworks -->
           <div class="gallery-card" data-category="varmala" data-index="0">
-            <img class="gallery-card__img" src="assets/hero_varmala_palace.jpg" alt="Royal Varmala Mandap Exchange with Cold Pyro, Sky Fireworks and Rose Shower" loading="lazy">
+            <img class="gallery-card__img" src="assets/hero_varmala_palace.webp" alt="Royal Varmala Mandap Exchange with Cold Pyro, Sky Fireworks and Rose Shower" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Royal Stage &amp; Varmala</span>
               <h3 class="gallery-card__title">Palace Varmala &amp; Fireworks</h3>
@@ -4466,7 +4467,7 @@
 
           <!-- 1. Fan-Burst Cold Pyro Stage -->
           <div class="gallery-card" data-category="varmala" data-index="1">
-            <img class="gallery-card__img" src="assets/cold_pyro_fan_stage.jpg" alt="Spectacular fan-burst cold pyro sparkular fountains on wedding stage" loading="lazy">
+            <img class="gallery-card__img" src="assets/cold_pyro_fan_stage.webp" alt="Spectacular fan-burst cold pyro sparkular fountains on wedding stage" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Royal Stage &amp; Varmala</span>
               <h3 class="gallery-card__title">Fan-Burst Cold Pyro Stage</h3>
@@ -4477,7 +4478,7 @@
 
           <!-- 2. Rotating Catherine Wheels -->
           <div class="gallery-card" data-category="varmala" data-index="2">
-            <img class="gallery-card__img" src="assets/rotating_catherine_wheels.jpg" alt="Rotating cold pyro Catherine wheels and golden spark waterfalls" loading="lazy">
+            <img class="gallery-card__img" src="assets/rotating_catherine_wheels.webp" alt="Rotating cold pyro Catherine wheels and golden spark waterfalls" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Royal Stage &amp; Varmala</span>
               <h3 class="gallery-card__title">Rotating Catherine Wheels</h3>
@@ -4488,7 +4489,7 @@
 
           <!-- 3. Royal Bridal Aisle Entry -->
           <div class="gallery-card" data-category="entry" data-index="3">
-            <img class="gallery-card__img" src="assets/bridal_entry_sparkular_aisle.jpg" alt="Bride walking down aisle lined with towering vertical sparkular fountains" loading="lazy">
+            <img class="gallery-card__img" src="assets/bridal_entry_sparkular_aisle.webp" alt="Bride walking down aisle lined with towering vertical sparkular fountains" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Royal Bridal Aisle Entry</h3>
@@ -4499,7 +4500,7 @@
 
           <!-- 4. Grand Ghodi Baraat with Flame FX -->
           <div class="gallery-card" data-category="entry" data-index="4">
-            <img class="gallery-card__img" src="assets/royal_ghodi_flame_entry.jpg" alt="Groom on white horse on red carpet flanked by vertical flame machines and sparkulars" loading="lazy">
+            <img class="gallery-card__img" src="assets/royal_ghodi_flame_entry.webp" alt="Groom on white horse on red carpet flanked by vertical flame machines and sparkulars" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Ghodi Baraat with Flame FX</h3>
@@ -4510,7 +4511,7 @@
 
           <!-- 5. Royal Carriage Entry with Pyro Guns -->
           <div class="gallery-card" data-category="entry" data-index="5">
-            <img class="gallery-card__img" src="assets/baraat_carriage_sparkler_gun.jpg" alt="Groom in vintage floral carriage with handheld sparkler guns and confetti" loading="lazy">
+            <img class="gallery-card__img" src="assets/baraat_carriage_sparkler_gun.webp" alt="Groom in vintage floral carriage with handheld sparkler guns and confetti" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Royal Carriage &amp; Pyro Guns</h3>
@@ -4521,7 +4522,7 @@
 
           <!-- 6. Royal Banner Guard of Honour -->
           <div class="gallery-card" data-category="entry" data-index="6">
-            <img class="gallery-card__img" src="assets/royal_banner_entry.jpg" alt="Royal groom entry flanked by velvet banners topped with cold pyro fountains" loading="lazy">
+            <img class="gallery-card__img" src="assets/royal_banner_entry.webp" alt="Royal groom entry flanked by velvet banners topped with cold pyro fountains" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Royal Banner Guard of Honour</h3>
@@ -4532,7 +4533,7 @@
 
           <!-- 7. Vintage Rolls-Royce Grand Entry -->
           <div class="gallery-card" data-category="entry" data-index="7">
-            <img class="gallery-card__img" src="assets/rolls_royce_pyro_entry.jpg" alt="Groom in vintage Rolls-Royce with dual cold pyro sparkler torches" loading="lazy">
+            <img class="gallery-card__img" src="assets/rolls_royce_pyro_entry.webp" alt="Groom in vintage Rolls-Royce with dual cold pyro sparkler torches" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Vintage Rolls-Royce Entry</h3>
@@ -4543,7 +4544,7 @@
 
           <!-- 8. Flower Carriage with Cold Spark Wings -->
           <div class="gallery-card" data-category="entry" data-index="8">
-            <img class="gallery-card__img" src="assets/royal_carriage_baraat_fan.jpg" alt="Groom in floral carriage with fan-spread cold spark wings" loading="lazy">
+            <img class="gallery-card__img" src="assets/royal_carriage_baraat_fan.webp" alt="Groom in floral carriage with fan-spread cold spark wings" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Floral Carriage Spark Wings</h3>
@@ -4554,7 +4555,7 @@
 
           <!-- 9. Mirrored Ramp Bridal Walk -->
           <div class="gallery-card" data-category="entry" data-index="9">
-            <img class="gallery-card__img" src="assets/bridal_glass_ramp_pyro.jpg" alt="Bride smiling on glass runway surrounded by sparkling cold fireworks" loading="lazy">
+            <img class="gallery-card__img" src="assets/bridal_glass_ramp_pyro.webp" alt="Bride smiling on glass runway surrounded by sparkling cold fireworks" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Mirrored Ramp Bridal Walk</h3>
@@ -4565,7 +4566,7 @@
 
           <!-- 10. Low Fog Dance with Sparkler Arch -->
           <div class="gallery-card" data-category="sangeet" data-index="10">
-            <img class="gallery-card__img" src="assets/low_fog_sparkler_entry.jpg" alt="Couple walking through knee-deep low fog with sparkler arch overhead" loading="lazy">
+            <img class="gallery-card__img" src="assets/low_fog_sparkler_entry.webp" alt="Couple walking through knee-deep low fog with sparkler arch overhead" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Low Fog &amp; Sparkler Arch</h3>
@@ -4576,7 +4577,7 @@
 
           <!-- 11. Couple Twirl in Dry Ice Clouds -->
           <div class="gallery-card" data-category="sangeet" data-index="11">
-            <img class="gallery-card__img" src="assets/low_fog_twirl_dance.jpg" alt="Couple twirling in heavy dry ice clouds under sparkler guns" loading="lazy">
+            <img class="gallery-card__img" src="assets/low_fog_twirl_dance.webp" alt="Couple twirling in heavy dry ice clouds under sparkler guns" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Twirling On Clouds</h3>
@@ -4587,7 +4588,7 @@
 
           <!-- 12. First Dance in Falling Snow & Sparks -->
           <div class="gallery-card" data-category="sangeet" data-index="12">
-            <img class="gallery-card__img" src="assets/ballroom_first_dance_snow.jpg" alt="Couple first dance on mirrored floor with cold spark fountains and falling simulated snow" loading="lazy">
+            <img class="gallery-card__img" src="assets/ballroom_first_dance_snow.webp" alt="Couple first dance on mirrored floor with cold spark fountains and falling simulated snow" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Dance in Snow &amp; Cold Sparks</h3>
@@ -4598,7 +4599,7 @@
 
           <!-- 13. Sangeet Sparkler Gun Tunnel -->
           <div class="gallery-card" data-category="sangeet" data-index="13">
-            <img class="gallery-card__img" src="assets/sangeet_pyro_gun_tunnel.jpg" alt="High energy couple dancing through sparkler gun tunnel" loading="lazy">
+            <img class="gallery-card__img" src="assets/sangeet_pyro_gun_tunnel.webp" alt="High energy couple dancing through sparkler gun tunnel" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Sangeet Sparkler Gun Tunnel</h3>
@@ -4609,7 +4610,7 @@
 
           <!-- 14. Celebration Dance under Sparkler Arches -->
           <div class="gallery-card" data-category="sangeet" data-index="14">
-            <img class="gallery-card__img" src="assets/sangeet_gold_couple_dance.jpg" alt="Couple dancing in gold outfits under sparkler arches" loading="lazy">
+            <img class="gallery-card__img" src="assets/sangeet_gold_couple_dance.webp" alt="Couple dancing in gold outfits under sparkler arches" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Sparkler Arch Celebration</h3>
@@ -4620,7 +4621,7 @@
 
           <!-- 15. Fairytale Reception Walk -->
           <div class="gallery-card" data-category="sangeet" data-index="15">
-            <img class="gallery-card__img" src="assets/reception_fairy_light_arch.jpg" alt="Couple entry under fairy light canopy with sparkler torches" loading="lazy">
+            <img class="gallery-card__img" src="assets/reception_fairy_light_arch.webp" alt="Couple entry under fairy light canopy with sparkler torches" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Fairytale Light Canopy Walk</h3>
@@ -4631,7 +4632,7 @@
 
           <!-- 16. Red Carpet Sparkler Gun Walk -->
           <div class="gallery-card" data-category="sangeet" data-index="16">
-            <img class="gallery-card__img" src="assets/sangeet_red_lehenga_pyro.jpg" alt="Couple walking hand in hand with sparkler guns forming an arch" loading="lazy">
+            <img class="gallery-card__img" src="assets/sangeet_red_lehenga_pyro.webp" alt="Couple walking hand in hand with sparkler guns forming an arch" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Red Carpet Sparkler Walk</h3>
@@ -4642,7 +4643,7 @@
 
           <!-- 17. Royal Mandap Aerial Sky Fireworks -->
           <div class="gallery-card" data-category="fireworks" data-index="17">
-            <img class="gallery-card__img" src="assets/sky_fireworks_mandap.jpg" alt="Multi-color aerial fireworks bursting high above floral wedding mandap" loading="lazy">
+            <img class="gallery-card__img" src="assets/sky_fireworks_mandap.webp" alt="Multi-color aerial fireworks bursting high above floral wedding mandap" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sky Fireworks</span>
               <h3 class="gallery-card__title">Royal Mandap Sky Fireworks</h3>
@@ -4653,7 +4654,7 @@
 
           <!-- 18. Daytime Rainbow Smoke Mandap -->
           <div class="gallery-card" data-category="smoke" data-index="18">
-            <img class="gallery-card__img" src="assets/colour_smoke_rainbow_mandap.jpg" alt="Towering rainbow color smoke plumes shooting into blue sky behind mandap" loading="lazy">
+            <img class="gallery-card__img" src="assets/colour_smoke_rainbow_mandap.webp" alt="Towering rainbow color smoke plumes shooting into blue sky behind mandap" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Daytime Colour Smoke</span>
               <h3 class="gallery-card__title">Daytime Rainbow Smoke Mandap</h3>
@@ -4664,7 +4665,7 @@
 
           <!-- 19. Haldi & Holi Color Smoke Celebration -->
           <div class="gallery-card" data-category="smoke" data-index="19">
-            <img class="gallery-card__img" src="assets/haldi_procession_smoke.png" alt="Vibrant yellow pink purple smoke clouds dancing at Haldi ceremony" loading="lazy">
+            <img class="gallery-card__img" src="assets/haldi_procession_smoke.webp" alt="Vibrant yellow pink purple smoke clouds dancing at Haldi ceremony" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Daytime Colour Smoke</span>
               <h3 class="gallery-card__title">Haldi &amp; Holi Smoke Carnival</h3>
@@ -4675,7 +4676,7 @@
 
           <!-- 20. Lake Palace Crescent Varmala Smoke -->
           <div class="gallery-card" data-category="smoke" data-index="20">
-            <img class="gallery-card__img" src="assets/lake_palace_colour_smoke.jpg" alt="Circular floral crescent stage overlooking lake with multi-color day smoke" loading="lazy">
+            <img class="gallery-card__img" src="assets/lake_palace_colour_smoke.webp" alt="Circular floral crescent stage overlooking lake with multi-color day smoke" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Daytime Colour Smoke</span>
               <h3 class="gallery-card__title">Lake Palace Crescent Smoke</h3>
@@ -4686,7 +4687,7 @@
 
           <!-- 21. Beachside Varmala Color Smoke -->
           <div class="gallery-card" data-category="smoke" data-index="21">
-            <img class="gallery-card__img" src="assets/colour_smoke_beach_varmala.jpg" alt="Color smoke plumes behind beachfront floral mandap during sunset pheras" loading="lazy">
+            <img class="gallery-card__img" src="assets/colour_smoke_beach_varmala.webp" alt="Color smoke plumes behind beachfront floral mandap during sunset pheras" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Daytime Colour Smoke</span>
               <h3 class="gallery-card__title">Beachside Varmala Color Smoke</h3>
@@ -4697,7 +4698,7 @@
 
           <!-- 22. Reel 1: Rotating Catherine Wheel (Video) -->
           <div class="gallery-card gallery-card--video" data-category="reels" data-index="22">
-            <img class="gallery-card__img" src="assets/reels/reel_varmala_rotating_wheel_poster.jpg" alt="Rotating Sparkular Catherine Wheel during Varmala" loading="lazy">
+            <img class="gallery-card__img" src="assets/reels/reel_varmala_rotating_wheel_poster.webp" alt="Rotating Sparkular Catherine Wheel during Varmala" loading="lazy" decoding="async">
             <div class="gallery-card__video-badge"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg> 0:19</div>
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Live Video Reel</span>
@@ -4709,7 +4710,7 @@
 
           <!-- 23. Reel 2: Palace Stage Cold Pyro (Video) -->
           <div class="gallery-card gallery-card--video" data-category="reels" data-index="23">
-            <img class="gallery-card__img" src="assets/reels/reel_palace_stage_pyro_poster.jpg" alt="Palace Stage Cold Pyro Fountains" loading="lazy">
+            <img class="gallery-card__img" src="assets/reels/reel_palace_stage_pyro_poster.webp" alt="Palace Stage Cold Pyro Fountains" loading="lazy" decoding="async">
             <div class="gallery-card__video-badge"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg> 0:10</div>
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Live Video Reel</span>
@@ -4721,7 +4722,7 @@
 
           <!-- 24. Reel 3: Midnight Sky Fireworks (Video) -->
           <div class="gallery-card gallery-card--video" data-category="reels" data-index="24">
-            <img class="gallery-card__img" src="assets/reels/reel_midnight_sky_fireworks_poster.jpg" alt="Midnight Sky Fireworks Finale" loading="lazy">
+            <img class="gallery-card__img" src="assets/reels/reel_midnight_sky_fireworks_poster.webp" alt="Midnight Sky Fireworks Finale" loading="lazy" decoding="async">
             <div class="gallery-card__video-badge"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg> 0:11</div>
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Live Video Reel</span>
@@ -4733,7 +4734,7 @@
 
           <!-- 25. Reel 4: Pyrotechnic Sky Barrage (Video) -->
           <div class="gallery-card gallery-card--video" data-category="reels" data-index="25">
-            <img class="gallery-card__img" src="assets/reels/reel_aerial_pyro_shells_poster.jpg" alt="Pyrotechnic Sky Barrage Shells" loading="lazy">
+            <img class="gallery-card__img" src="assets/reels/reel_aerial_pyro_shells_poster.webp" alt="Pyrotechnic Sky Barrage Shells" loading="lazy" decoding="async">
             <div class="gallery-card__video-badge"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg> 0:11</div>
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Live Video Reel</span>
@@ -5086,7 +5087,7 @@
             <div class="map-overlay-card">
               <div class="map-overlay-title">
                 <span class="brand__logo-frame" style="width:26px;height:26px;padding:2px;">
-                  <img class="brand__logo" src="assets/logo.jpg" alt="Galaxy Pyrotech" width="26" height="26">
+                  <img class="brand__logo" src="assets/logo.webp" alt="Galaxy Pyrotech" width="26" height="26" loading="lazy" decoding="async">
                 </span>
                 <span>Galaxy Pyrotech Traders</span>
               </div>
@@ -5122,7 +5123,7 @@
         <div class="footer__brand">
           <a class="brand" href="#home">
             <div class="brand__logo-frame brand__logo-frame--lg">
-              <img class="brand__logo" src="assets/logo.jpg" alt="Galaxy Pyrotech logo" width="64" height="64">
+              <img class="brand__logo" src="assets/logo.webp" alt="Galaxy Pyrotech logo" width="64" height="64" loading="lazy" decoding="async">
             </div>
             <div class="brand__text">
               <span class="brand__name">Galaxy Pyrotech</span>
@@ -5194,7 +5195,7 @@
       <svg class="icon" aria-hidden="true" style="transform:rotate(-90deg)"><use href="#i-chevron"/></svg>
     </button>
     <div class="lightbox__content">
-      <img class="lightbox__img" id="lightbox-img" src="assets/hero_varmala_palace.jpg" alt="Galaxy Pyrotech showcase preview">
+      <img class="lightbox__img" id="lightbox-img" src="assets/hero_varmala_palace.webp" alt="Galaxy Pyrotech showcase preview" decoding="async">
       <video class="lightbox__video" id="lightbox-video" controls playsinline style="display:none;"></video>
       <div class="lightbox__caption">
         <h3 class="lightbox__title" id="lightbox-title"></h3>
@@ -5315,190 +5316,190 @@
 
       var GALLERY_DATA = [
         {
-          src: 'assets/hero_varmala_palace.jpg',
+          src: 'assets/hero_varmala_palace.webp',
           title: 'Palace Varmala & Fireworks',
           desc: 'Bride and groom exchanging garlands on grand temple stage amidst cold pyro fountains, sky fireworks, and rose petal shower.',
           category: 'varmala',
           venue: 'Grand Temple Stage, Noida'
         },
         {
-          src: 'assets/cold_pyro_fan_stage.jpg',
+          src: 'assets/cold_pyro_fan_stage.webp',
           title: 'Fan-Burst Cold Pyro Stage',
           desc: 'Dramatic multi-angle fan burst cold pyro sparkular fountains shooting upward behind the couple.',
           category: 'varmala',
           venue: 'Grand Celebration Lawn'
         },
         {
-          src: 'assets/rotating_catherine_wheels.jpg',
+          src: 'assets/rotating_catherine_wheels.webp',
           title: 'Rotating Catherine Wheels',
           desc: 'Twin rotating Catherine wheels spinning golden spark blades on either side of the couple.',
           category: 'varmala',
           venue: 'Floral Stage, Noida'
         },
         {
-          src: 'assets/bridal_entry_sparkular_aisle.jpg',
+          src: 'assets/bridal_entry_sparkular_aisle.webp',
           title: 'Royal Bridal Aisle Entry',
           desc: 'Bride walking down the aisle framed by towering 4-meter smokeless cold pyro fountains.',
           category: 'entry',
           venue: 'Palace Walkway, Greater Noida'
         },
         {
-          src: 'assets/royal_ghodi_flame_entry.jpg',
+          src: 'assets/royal_ghodi_flame_entry.webp',
           title: 'Ghodi Baraat with Flame FX',
           desc: 'Groom arriving on white horse flanked by choreographed vertical flame machines and chandeliers.',
           category: 'entry',
           venue: 'Red Carpet Royal Lawn, Noida'
         },
         {
-          src: 'assets/baraat_carriage_sparkler_gun.jpg',
+          src: 'assets/baraat_carriage_sparkler_gun.webp',
           title: 'Royal Carriage & Pyro Guns',
           desc: 'Groom celebrating in flower-decked carriage with handheld sparkler guns and metallic confetti.',
           category: 'entry',
           venue: 'Floral Carriage Procession, Delhi NCR'
         },
         {
-          src: 'assets/royal_banner_entry.jpg',
+          src: 'assets/royal_banner_entry.webp',
           title: 'Royal Banner Guard of Honour',
           desc: 'Traditional velvet and gold royal insignia banners topped with shooting cold spark fountains.',
           category: 'entry',
           venue: 'Heritage Palace Courtyard'
         },
         {
-          src: 'assets/rolls_royce_pyro_entry.jpg',
+          src: 'assets/rolls_royce_pyro_entry.webp',
           title: 'Vintage Rolls-Royce Entry',
           desc: 'Groom arriving in vintage convertible Rolls-Royce holding twin cold pyro sparkler torches.',
           category: 'entry',
           venue: 'Private Estate, Delhi NCR'
         },
         {
-          src: 'assets/royal_carriage_baraat_fan.jpg',
+          src: 'assets/royal_carriage_baraat_fan.webp',
           title: 'Floral Carriage Spark Wings',
           desc: 'Groom smiling in royal vintage carriage with fan sparklers bursting behind him.',
           category: 'entry',
           venue: 'Royal Heritage Lawn'
         },
         {
-          src: 'assets/bridal_glass_ramp_pyro.jpg',
+          src: 'assets/bridal_glass_ramp_pyro.webp',
           title: 'Mirrored Ramp Bridal Walk',
           desc: 'Smiling bride on mirrored glass ramp with cold sparklers exploding around her.',
           category: 'entry',
           venue: 'Grand Banquet Walkway'
         },
         {
-          src: 'assets/low_fog_sparkler_entry.jpg',
+          src: 'assets/low_fog_sparkler_entry.webp',
           title: 'Low Fog & Sparkler Arch',
           desc: 'Couple walking through knee-deep dry ice clouds with friends holding a sparkler gun archway overhead.',
           category: 'sangeet',
           venue: 'Grand Ballroom, South Delhi'
         },
         {
-          src: 'assets/low_fog_twirl_dance.jpg',
+          src: 'assets/low_fog_twirl_dance.webp',
           title: 'Twirling On Clouds',
           desc: 'Romantic first dance enveloped in thick, odorless low fog with golden sparkler canopy.',
           category: 'sangeet',
           venue: 'Luxury Banquet, Noida'
         },
         {
-          src: 'assets/ballroom_first_dance_snow.jpg',
+          src: 'assets/ballroom_first_dance_snow.webp',
           title: 'Dance in Snow & Cold Sparks',
           desc: 'Mirrored runway dance surrounded by cold spark fountains and falling simulated snow crystals.',
           category: 'sangeet',
           venue: 'Crystal Ballroom, Delhi NCR'
         },
         {
-          src: 'assets/sangeet_pyro_gun_tunnel.jpg',
+          src: 'assets/sangeet_pyro_gun_tunnel.webp',
           title: 'Sangeet Sparkler Gun Tunnel',
           desc: 'High-energy sangeet entry with guests creating an electric sparkler gun tunnel for the dancing couple.',
           category: 'sangeet',
           venue: 'Courtyard Stage, Greater Noida'
         },
         {
-          src: 'assets/sangeet_gold_couple_dance.jpg',
+          src: 'assets/sangeet_gold_couple_dance.webp',
           title: 'Sparkler Arch Celebration',
           desc: 'Couple dancing in shimmering outfits under archways of brilliant gold cold pyro spark fountains.',
           category: 'sangeet',
           venue: 'Evening Sangeet Lawn, Noida'
         },
         {
-          src: 'assets/reception_fairy_light_arch.jpg',
+          src: 'assets/reception_fairy_light_arch.webp',
           title: 'Fairytale Light Canopy Walk',
           desc: 'Reception couple walking under fairy light canopy with cold sparkler torches.',
           category: 'sangeet',
           venue: 'Open Lawn Reception'
         },
         {
-          src: 'assets/sangeet_red_lehenga_pyro.jpg',
+          src: 'assets/sangeet_red_lehenga_pyro.webp',
           title: 'Red Carpet Sparkler Walk',
           desc: 'Couple in bright celebratory attire walking hand in hand with sparkler guns forming an arch.',
           category: 'sangeet',
           venue: 'Sangeet Night Courtyard'
         },
         {
-          src: 'assets/sky_fireworks_mandap.jpg',
+          src: 'assets/sky_fireworks_mandap.webp',
           title: 'Royal Mandap Sky Fireworks',
           desc: 'Brilliant cyan, magenta, and gold aerial fireworks bursting high above the floral mandap.',
           category: 'fireworks',
           venue: 'Destination Heritage Mandap, Rajasthan'
         },
         {
-          src: 'assets/colour_smoke_rainbow_mandap.jpg',
+          src: 'assets/colour_smoke_rainbow_mandap.webp',
           title: 'Daytime Rainbow Smoke Mandap',
           desc: 'Towering rainbow color smoke plumes shooting 50 feet into the blue sky during daytime varmala.',
           category: 'smoke',
           venue: 'Open Garden Lawn, Sector 22 Noida'
         },
         {
-          src: 'assets/haldi_procession_smoke.png',
+          src: 'assets/haldi_procession_smoke.webp',
           title: 'Haldi & Holi Smoke Carnival',
           desc: 'Vibrant yellow, pink, and purple daytime smoke clouds dancing with dhol players at Haldi ceremony.',
           category: 'smoke',
           venue: 'Poolside Lawn, Delhi NCR'
         },
         {
-          src: 'assets/lake_palace_colour_smoke.jpg',
+          src: 'assets/lake_palace_colour_smoke.webp',
           title: 'Lake Palace Crescent Smoke',
           desc: 'Grand circular crescent floral stage overlooking the lake with massive multi-colored day smoke plumes.',
           category: 'smoke',
           venue: 'Lake Palace Terrace, Udaipur'
         },
         {
-          src: 'assets/colour_smoke_beach_varmala.jpg',
+          src: 'assets/colour_smoke_beach_varmala.webp',
           title: 'Beachside Varmala Color Smoke',
           desc: 'Pastel color smoke plumes rising behind beachfront floral mandap during sunset pheras.',
           category: 'smoke',
           venue: 'Coastal Beach Resort'
         },
         {
-          src: 'assets/reels/reel_varmala_rotating_wheel_poster.jpg',
+          src: 'assets/reels/reel_varmala_rotating_wheel_poster.webp',
           video: 'assets/reels/reel_varmala_rotating_wheel.mp4',
-          poster: 'assets/reels/reel_varmala_rotating_wheel_poster.jpg',
+          poster: 'assets/reels/reel_varmala_rotating_wheel_poster.webp',
           title: 'Rotating Catherine Wheel (Live Reel)',
           desc: 'Live video of 360-degree rotating cold pyro Catherine wheel and spark fountains during Varmala.',
           category: 'reels',
           venue: 'Grand Varmala Stage, Noida'
         },
         {
-          src: 'assets/reels/reel_palace_stage_pyro_poster.jpg',
+          src: 'assets/reels/reel_palace_stage_pyro_poster.webp',
           video: 'assets/reels/reel_palace_stage_pyro.mp4',
-          poster: 'assets/reels/reel_palace_stage_pyro_poster.jpg',
+          poster: 'assets/reels/reel_palace_stage_pyro_poster.webp',
           title: 'Palace Stage Cold Pyro (Live Reel)',
           desc: 'Live video of soaring cold pyro fountains illuminating the grand palace stage with rose petal shower.',
           category: 'reels',
           venue: 'Heritage Palace Lawn, Delhi NCR'
         },
         {
-          src: 'assets/reels/reel_midnight_sky_fireworks_poster.jpg',
+          src: 'assets/reels/reel_midnight_sky_fireworks_poster.webp',
           video: 'assets/reels/reel_midnight_sky_fireworks.mp4',
-          poster: 'assets/reels/reel_midnight_sky_fireworks_poster.jpg',
+          poster: 'assets/reels/reel_midnight_sky_fireworks_poster.webp',
           title: 'Midnight Sky Fireworks (Live Reel)',
           desc: 'Live video of high-altitude golden willow aerial fireworks shells lighting up the night sky.',
           category: 'reels',
           venue: 'Farmhouse Lawn Celebration'
         },
         {
-          src: 'assets/reels/reel_aerial_pyro_shells_poster.jpg',
+          src: 'assets/reels/reel_aerial_pyro_shells_poster.webp',
           video: 'assets/reels/reel_aerial_pyro_shells.mp4',
-          poster: 'assets/reels/reel_aerial_pyro_shells_poster.jpg',
+          poster: 'assets/reels/reel_aerial_pyro_shells_poster.webp',
           title: 'Pyrotechnic Sky Barrage (Live Reel)',
           desc: 'Live video of rapid aerial pyrotechnic shells soaring into the sky.',
           category: 'reels',

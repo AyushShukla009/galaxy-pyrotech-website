@@ -50,7 +50,7 @@ def get_body():
       <!-- Brand Logo with Golden Rim -->
       <a class="brand" href="#home" aria-label="Galaxy Pyrotech Traders, Home">
         <div class="brand__logo-frame">
-          <img class="brand__logo" src="assets/logo.jpg" alt="Galaxy Pyrotech Logo" width="48" height="48">
+          <img class="brand__logo" src="assets/logo.webp" alt="Galaxy Pyrotech Logo" width="48" height="48" decoding="async">
         </div>
         <div class="brand__text">
           <span class="brand__name">Galaxy Pyrotech</span>
@@ -191,7 +191,7 @@ def get_body():
         <!-- Hero Visual Showcase Card -->
         <div class="hero__visual-wrap">
           <div class="hero__visual-card">
-            <img class="hero__visual-img" src="assets/hero_varmala_palace.jpg" alt="Galaxy Pyrotech grand royal varmala stage special effects with cold pyro and sky fireworks">
+            <img class="hero__visual-img" src="assets/hero_varmala_palace.webp" alt="Galaxy Pyrotech grand royal varmala stage special effects with cold pyro and sky fireworks" fetchpriority="high" decoding="async">
             <a class="hero__reel-pill" href="#reels" aria-label="Watch 4 Live Pyrotechnic Reels">
               <span class="hero__reel-pill-icon"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg></span>
               <span>Watch 4 Live Reels</span>
@@ -257,7 +257,7 @@ def get_body():
           <!-- 1. Cold Pyro -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/cold_pyro_fan_stage.jpg" alt="Fan-burst cold pyro sparkular fountains at luxury wedding stage" loading="lazy">
+              <img class="service-card__img" src="assets/cold_pyro_fan_stage.webp" alt="Fan-burst cold pyro sparkular fountains at luxury wedding stage" loading="lazy" decoding="async">
               <span class="service-card__badge">Indoor &amp; Outdoor</span>
             </div>
             <div class="service-card__body">
@@ -281,7 +281,7 @@ def get_body():
           <!-- 2. Low Fog -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/low_fog_sparkler_entry.jpg" alt="Couple walking through heavy dry ice low fog with sparkler archway" loading="lazy">
+              <img class="service-card__img" src="assets/low_fog_sparkler_entry.webp" alt="Couple walking through heavy dry ice low fog with sparkler archway" loading="lazy" decoding="async">
               <span class="service-card__badge">Zero Residue</span>
             </div>
             <div class="service-card__body">
@@ -305,7 +305,7 @@ def get_body():
           <!-- 3. Sparkular Waterfall -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/rotating_catherine_wheels.jpg" alt="Twin rotating cold pyro Catherine wheels and golden spark waterfalls" loading="lazy">
+              <img class="service-card__img" src="assets/rotating_catherine_wheels.webp" alt="Twin rotating cold pyro Catherine wheels and golden spark waterfalls" loading="lazy" decoding="async">
               <span class="service-card__badge">DMX Controlled</span>
             </div>
             <div class="service-card__body">
@@ -329,7 +329,7 @@ def get_body():
           <!-- 4. Sky Fireworks -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/sky_fireworks_mandap.jpg" alt="High-altitude aerial fireworks bursting above royal wedding floral mandap" loading="lazy">
+              <img class="service-card__img" src="assets/sky_fireworks_mandap.webp" alt="High-altitude aerial fireworks bursting above royal wedding floral mandap" loading="lazy" decoding="async">
               <span class="service-card__badge">Outdoor Spectacular</span>
             </div>
             <div class="service-card__body">
@@ -353,7 +353,7 @@ def get_body():
           <!-- 5. Colour Smoke -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/colour_smoke_rainbow_mandap.jpg" alt="Vibrant rainbow daytime colour smoke plumes shooting behind wedding mandap" loading="lazy">
+              <img class="service-card__img" src="assets/colour_smoke_rainbow_mandap.webp" alt="Vibrant rainbow daytime colour smoke plumes shooting behind wedding mandap" loading="lazy" decoding="async">
               <span class="service-card__badge">Daytime Special</span>
             </div>
             <div class="service-card__body">
@@ -377,7 +377,7 @@ def get_body():
           <!-- 6. Royal Varmala Package -->
           <article class="service-card">
             <div class="service-card__media">
-              <img class="service-card__img" src="assets/royal_ghodi_flame_entry.jpg" alt="Grand Ghodi Baraat entry on red carpet with vertical flame machines and sparkulars" loading="lazy">
+              <img class="service-card__img" src="assets/royal_ghodi_flame_entry.webp" alt="Grand Ghodi Baraat entry on red carpet with vertical flame machines and sparkulars" loading="lazy" decoding="async">
               <span class="service-card__badge">Most Popular</span>
             </div>
             <div class="service-card__body">
@@ -417,7 +417,7 @@ def get_body():
         <div class="reels__grid">
           <!-- Reel 1: Rotating Catherine Wheel Varmala -->
           <div class="reel-card" data-reel-index="0" data-video="assets/reels/reel_varmala_rotating_wheel.mp4">
-            <video class="reel-card__video" muted loop playsinline preload="metadata" poster="assets/reels/reel_varmala_rotating_wheel_poster.jpg">
+            <video class="reel-card__video" muted loop playsinline preload="none" poster="assets/reels/reel_varmala_rotating_wheel_poster.webp">
               <source src="assets/reels/reel_varmala_rotating_wheel.mp4" type="video/mp4">
             </video>
             <div class="reel-card__overlay">
@@ -438,7 +438,7 @@ def get_body():
 
           <!-- Reel 2: Heritage Palace Cold Pyro Fountains -->
           <div class="reel-card" data-reel-index="1" data-video="assets/reels/reel_palace_stage_pyro.mp4">
-            <video class="reel-card__video" muted loop playsinline preload="metadata" poster="assets/reels/reel_palace_stage_pyro_poster.jpg">
+            <video class="reel-card__video" muted loop playsinline preload="none" poster="assets/reels/reel_palace_stage_pyro_poster.webp">
               <source src="assets/reels/reel_palace_stage_pyro.mp4" type="video/mp4">
             </video>
             <div class="reel-card__overlay">
@@ -459,7 +459,7 @@ def get_body():
 
           <!-- Reel 3: Midnight Sky Fireworks Finale -->
           <div class="reel-card" data-reel-index="2" data-video="assets/reels/reel_midnight_sky_fireworks.mp4">
-            <video class="reel-card__video" muted loop playsinline preload="metadata" poster="assets/reels/reel_midnight_sky_fireworks_poster.jpg">
+            <video class="reel-card__video" muted loop playsinline preload="none" poster="assets/reels/reel_midnight_sky_fireworks_poster.webp">
               <source src="assets/reels/reel_midnight_sky_fireworks.mp4" type="video/mp4">
             </video>
             <div class="reel-card__overlay">
@@ -480,7 +480,7 @@ def get_body():
 
           <!-- Reel 4: Aerial Pyrotechnic Cake Barrage -->
           <div class="reel-card" data-reel-index="3" data-video="assets/reels/reel_aerial_pyro_shells.mp4">
-            <video class="reel-card__video" muted loop playsinline preload="metadata" poster="assets/reels/reel_aerial_pyro_shells_poster.jpg">
+            <video class="reel-card__video" muted loop playsinline preload="none" poster="assets/reels/reel_aerial_pyro_shells_poster.webp">
               <source src="assets/reels/reel_aerial_pyro_shells.mp4" type="video/mp4">
             </video>
             <div class="reel-card__overlay">
@@ -499,8 +499,6 @@ def get_body():
             </div>
           </div>
         </div>
-      </div>
-    </section>
       </div>
     </section>
 
@@ -794,7 +792,7 @@ def get_body():
         <div class="gallery-grid" id="gallery-grid">
           <!-- 0. Palace Varmala & Fireworks -->
           <div class="gallery-card" data-category="varmala" data-index="0">
-            <img class="gallery-card__img" src="assets/hero_varmala_palace.jpg" alt="Royal Varmala Mandap Exchange with Cold Pyro, Sky Fireworks and Rose Shower" loading="lazy">
+            <img class="gallery-card__img" src="assets/hero_varmala_palace.webp" alt="Royal Varmala Mandap Exchange with Cold Pyro, Sky Fireworks and Rose Shower" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Royal Stage &amp; Varmala</span>
               <h3 class="gallery-card__title">Palace Varmala &amp; Fireworks</h3>
@@ -805,7 +803,7 @@ def get_body():
 
           <!-- 1. Fan-Burst Cold Pyro Stage -->
           <div class="gallery-card" data-category="varmala" data-index="1">
-            <img class="gallery-card__img" src="assets/cold_pyro_fan_stage.jpg" alt="Spectacular fan-burst cold pyro sparkular fountains on wedding stage" loading="lazy">
+            <img class="gallery-card__img" src="assets/cold_pyro_fan_stage.webp" alt="Spectacular fan-burst cold pyro sparkular fountains on wedding stage" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Royal Stage &amp; Varmala</span>
               <h3 class="gallery-card__title">Fan-Burst Cold Pyro Stage</h3>
@@ -816,7 +814,7 @@ def get_body():
 
           <!-- 2. Rotating Catherine Wheels -->
           <div class="gallery-card" data-category="varmala" data-index="2">
-            <img class="gallery-card__img" src="assets/rotating_catherine_wheels.jpg" alt="Rotating cold pyro Catherine wheels and golden spark waterfalls" loading="lazy">
+            <img class="gallery-card__img" src="assets/rotating_catherine_wheels.webp" alt="Rotating cold pyro Catherine wheels and golden spark waterfalls" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Royal Stage &amp; Varmala</span>
               <h3 class="gallery-card__title">Rotating Catherine Wheels</h3>
@@ -827,7 +825,7 @@ def get_body():
 
           <!-- 3. Royal Bridal Aisle Entry -->
           <div class="gallery-card" data-category="entry" data-index="3">
-            <img class="gallery-card__img" src="assets/bridal_entry_sparkular_aisle.jpg" alt="Bride walking down aisle lined with towering vertical sparkular fountains" loading="lazy">
+            <img class="gallery-card__img" src="assets/bridal_entry_sparkular_aisle.webp" alt="Bride walking down aisle lined with towering vertical sparkular fountains" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Royal Bridal Aisle Entry</h3>
@@ -838,7 +836,7 @@ def get_body():
 
           <!-- 4. Grand Ghodi Baraat with Flame FX -->
           <div class="gallery-card" data-category="entry" data-index="4">
-            <img class="gallery-card__img" src="assets/royal_ghodi_flame_entry.jpg" alt="Groom on white horse on red carpet flanked by vertical flame machines and sparkulars" loading="lazy">
+            <img class="gallery-card__img" src="assets/royal_ghodi_flame_entry.webp" alt="Groom on white horse on red carpet flanked by vertical flame machines and sparkulars" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Ghodi Baraat with Flame FX</h3>
@@ -849,7 +847,7 @@ def get_body():
 
           <!-- 5. Royal Carriage Entry with Pyro Guns -->
           <div class="gallery-card" data-category="entry" data-index="5">
-            <img class="gallery-card__img" src="assets/baraat_carriage_sparkler_gun.jpg" alt="Groom in vintage floral carriage with handheld sparkler guns and confetti" loading="lazy">
+            <img class="gallery-card__img" src="assets/baraat_carriage_sparkler_gun.webp" alt="Groom in vintage floral carriage with handheld sparkler guns and confetti" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Royal Carriage &amp; Pyro Guns</h3>
@@ -860,7 +858,7 @@ def get_body():
 
           <!-- 6. Royal Banner Guard of Honour -->
           <div class="gallery-card" data-category="entry" data-index="6">
-            <img class="gallery-card__img" src="assets/royal_banner_entry.jpg" alt="Royal groom entry flanked by velvet banners topped with cold pyro fountains" loading="lazy">
+            <img class="gallery-card__img" src="assets/royal_banner_entry.webp" alt="Royal groom entry flanked by velvet banners topped with cold pyro fountains" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Royal Banner Guard of Honour</h3>
@@ -871,7 +869,7 @@ def get_body():
 
           <!-- 7. Vintage Rolls-Royce Grand Entry -->
           <div class="gallery-card" data-category="entry" data-index="7">
-            <img class="gallery-card__img" src="assets/rolls_royce_pyro_entry.jpg" alt="Groom in vintage Rolls-Royce with dual cold pyro sparkler torches" loading="lazy">
+            <img class="gallery-card__img" src="assets/rolls_royce_pyro_entry.webp" alt="Groom in vintage Rolls-Royce with dual cold pyro sparkler torches" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Vintage Rolls-Royce Entry</h3>
@@ -882,7 +880,7 @@ def get_body():
 
           <!-- 8. Flower Carriage with Cold Spark Wings -->
           <div class="gallery-card" data-category="entry" data-index="8">
-            <img class="gallery-card__img" src="assets/royal_carriage_baraat_fan.jpg" alt="Groom in floral carriage with fan-spread cold spark wings" loading="lazy">
+            <img class="gallery-card__img" src="assets/royal_carriage_baraat_fan.webp" alt="Groom in floral carriage with fan-spread cold spark wings" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Floral Carriage Spark Wings</h3>
@@ -893,7 +891,7 @@ def get_body():
 
           <!-- 9. Mirrored Ramp Bridal Walk -->
           <div class="gallery-card" data-category="entry" data-index="9">
-            <img class="gallery-card__img" src="assets/bridal_glass_ramp_pyro.jpg" alt="Bride smiling on glass runway surrounded by sparkling cold fireworks" loading="lazy">
+            <img class="gallery-card__img" src="assets/bridal_glass_ramp_pyro.webp" alt="Bride smiling on glass runway surrounded by sparkling cold fireworks" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Baraat &amp; Entries</span>
               <h3 class="gallery-card__title">Mirrored Ramp Bridal Walk</h3>
@@ -904,7 +902,7 @@ def get_body():
 
           <!-- 10. Low Fog Dance with Sparkler Arch -->
           <div class="gallery-card" data-category="sangeet" data-index="10">
-            <img class="gallery-card__img" src="assets/low_fog_sparkler_entry.jpg" alt="Couple walking through knee-deep low fog with sparkler arch overhead" loading="lazy">
+            <img class="gallery-card__img" src="assets/low_fog_sparkler_entry.webp" alt="Couple walking through knee-deep low fog with sparkler arch overhead" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Low Fog &amp; Sparkler Arch</h3>
@@ -915,7 +913,7 @@ def get_body():
 
           <!-- 11. Couple Twirl in Dry Ice Clouds -->
           <div class="gallery-card" data-category="sangeet" data-index="11">
-            <img class="gallery-card__img" src="assets/low_fog_twirl_dance.jpg" alt="Couple twirling in heavy dry ice clouds under sparkler guns" loading="lazy">
+            <img class="gallery-card__img" src="assets/low_fog_twirl_dance.webp" alt="Couple twirling in heavy dry ice clouds under sparkler guns" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Twirling On Clouds</h3>
@@ -926,7 +924,7 @@ def get_body():
 
           <!-- 12. First Dance in Falling Snow & Sparks -->
           <div class="gallery-card" data-category="sangeet" data-index="12">
-            <img class="gallery-card__img" src="assets/ballroom_first_dance_snow.jpg" alt="Couple first dance on mirrored floor with cold spark fountains and falling simulated snow" loading="lazy">
+            <img class="gallery-card__img" src="assets/ballroom_first_dance_snow.webp" alt="Couple first dance on mirrored floor with cold spark fountains and falling simulated snow" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Dance in Snow &amp; Cold Sparks</h3>
@@ -937,7 +935,7 @@ def get_body():
 
           <!-- 13. Sangeet Sparkler Gun Tunnel -->
           <div class="gallery-card" data-category="sangeet" data-index="13">
-            <img class="gallery-card__img" src="assets/sangeet_pyro_gun_tunnel.jpg" alt="High energy couple dancing through sparkler gun tunnel" loading="lazy">
+            <img class="gallery-card__img" src="assets/sangeet_pyro_gun_tunnel.webp" alt="High energy couple dancing through sparkler gun tunnel" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Sangeet Sparkler Gun Tunnel</h3>
@@ -948,7 +946,7 @@ def get_body():
 
           <!-- 14. Celebration Dance under Sparkler Arches -->
           <div class="gallery-card" data-category="sangeet" data-index="14">
-            <img class="gallery-card__img" src="assets/sangeet_gold_couple_dance.jpg" alt="Couple dancing in gold outfits under sparkler arches" loading="lazy">
+            <img class="gallery-card__img" src="assets/sangeet_gold_couple_dance.webp" alt="Couple dancing in gold outfits under sparkler arches" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Sparkler Arch Celebration</h3>
@@ -959,7 +957,7 @@ def get_body():
 
           <!-- 15. Fairytale Reception Walk -->
           <div class="gallery-card" data-category="sangeet" data-index="15">
-            <img class="gallery-card__img" src="assets/reception_fairy_light_arch.jpg" alt="Couple entry under fairy light canopy with sparkler torches" loading="lazy">
+            <img class="gallery-card__img" src="assets/reception_fairy_light_arch.webp" alt="Couple entry under fairy light canopy with sparkler torches" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Fairytale Light Canopy Walk</h3>
@@ -970,7 +968,7 @@ def get_body():
 
           <!-- 16. Red Carpet Sparkler Gun Walk -->
           <div class="gallery-card" data-category="sangeet" data-index="16">
-            <img class="gallery-card__img" src="assets/sangeet_red_lehenga_pyro.jpg" alt="Couple walking hand in hand with sparkler guns forming an arch" loading="lazy">
+            <img class="gallery-card__img" src="assets/sangeet_red_lehenga_pyro.webp" alt="Couple walking hand in hand with sparkler guns forming an arch" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sangeet &amp; First Dance</span>
               <h3 class="gallery-card__title">Red Carpet Sparkler Walk</h3>
@@ -981,7 +979,7 @@ def get_body():
 
           <!-- 17. Royal Mandap Aerial Sky Fireworks -->
           <div class="gallery-card" data-category="fireworks" data-index="17">
-            <img class="gallery-card__img" src="assets/sky_fireworks_mandap.jpg" alt="Multi-color aerial fireworks bursting high above floral wedding mandap" loading="lazy">
+            <img class="gallery-card__img" src="assets/sky_fireworks_mandap.webp" alt="Multi-color aerial fireworks bursting high above floral wedding mandap" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Sky Fireworks</span>
               <h3 class="gallery-card__title">Royal Mandap Sky Fireworks</h3>
@@ -992,7 +990,7 @@ def get_body():
 
           <!-- 18. Daytime Rainbow Smoke Mandap -->
           <div class="gallery-card" data-category="smoke" data-index="18">
-            <img class="gallery-card__img" src="assets/colour_smoke_rainbow_mandap.jpg" alt="Towering rainbow color smoke plumes shooting into blue sky behind mandap" loading="lazy">
+            <img class="gallery-card__img" src="assets/colour_smoke_rainbow_mandap.webp" alt="Towering rainbow color smoke plumes shooting into blue sky behind mandap" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Daytime Colour Smoke</span>
               <h3 class="gallery-card__title">Daytime Rainbow Smoke Mandap</h3>
@@ -1003,7 +1001,7 @@ def get_body():
 
           <!-- 19. Haldi & Holi Color Smoke Celebration -->
           <div class="gallery-card" data-category="smoke" data-index="19">
-            <img class="gallery-card__img" src="assets/haldi_procession_smoke.png" alt="Vibrant yellow pink purple smoke clouds dancing at Haldi ceremony" loading="lazy">
+            <img class="gallery-card__img" src="assets/haldi_procession_smoke.webp" alt="Vibrant yellow pink purple smoke clouds dancing at Haldi ceremony" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Daytime Colour Smoke</span>
               <h3 class="gallery-card__title">Haldi &amp; Holi Smoke Carnival</h3>
@@ -1014,7 +1012,7 @@ def get_body():
 
           <!-- 20. Lake Palace Crescent Varmala Smoke -->
           <div class="gallery-card" data-category="smoke" data-index="20">
-            <img class="gallery-card__img" src="assets/lake_palace_colour_smoke.jpg" alt="Circular floral crescent stage overlooking lake with multi-color day smoke" loading="lazy">
+            <img class="gallery-card__img" src="assets/lake_palace_colour_smoke.webp" alt="Circular floral crescent stage overlooking lake with multi-color day smoke" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Daytime Colour Smoke</span>
               <h3 class="gallery-card__title">Lake Palace Crescent Smoke</h3>
@@ -1025,7 +1023,7 @@ def get_body():
 
           <!-- 21. Beachside Varmala Color Smoke -->
           <div class="gallery-card" data-category="smoke" data-index="21">
-            <img class="gallery-card__img" src="assets/colour_smoke_beach_varmala.jpg" alt="Color smoke plumes behind beachfront floral mandap during sunset pheras" loading="lazy">
+            <img class="gallery-card__img" src="assets/colour_smoke_beach_varmala.webp" alt="Color smoke plumes behind beachfront floral mandap during sunset pheras" loading="lazy" decoding="async">
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Daytime Colour Smoke</span>
               <h3 class="gallery-card__title">Beachside Varmala Color Smoke</h3>
@@ -1036,7 +1034,7 @@ def get_body():
 
           <!-- 22. Reel 1: Rotating Catherine Wheel (Video) -->
           <div class="gallery-card gallery-card--video" data-category="reels" data-index="22">
-            <img class="gallery-card__img" src="assets/reels/reel_varmala_rotating_wheel_poster.jpg" alt="Rotating Sparkular Catherine Wheel during Varmala" loading="lazy">
+            <img class="gallery-card__img" src="assets/reels/reel_varmala_rotating_wheel_poster.webp" alt="Rotating Sparkular Catherine Wheel during Varmala" loading="lazy" decoding="async">
             <div class="gallery-card__video-badge"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg> 0:19</div>
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Live Video Reel</span>
@@ -1048,7 +1046,7 @@ def get_body():
 
           <!-- 23. Reel 2: Palace Stage Cold Pyro (Video) -->
           <div class="gallery-card gallery-card--video" data-category="reels" data-index="23">
-            <img class="gallery-card__img" src="assets/reels/reel_palace_stage_pyro_poster.jpg" alt="Palace Stage Cold Pyro Fountains" loading="lazy">
+            <img class="gallery-card__img" src="assets/reels/reel_palace_stage_pyro_poster.webp" alt="Palace Stage Cold Pyro Fountains" loading="lazy" decoding="async">
             <div class="gallery-card__video-badge"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg> 0:10</div>
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Live Video Reel</span>
@@ -1060,7 +1058,7 @@ def get_body():
 
           <!-- 24. Reel 3: Midnight Sky Fireworks (Video) -->
           <div class="gallery-card gallery-card--video" data-category="reels" data-index="24">
-            <img class="gallery-card__img" src="assets/reels/reel_midnight_sky_fireworks_poster.jpg" alt="Midnight Sky Fireworks Finale" loading="lazy">
+            <img class="gallery-card__img" src="assets/reels/reel_midnight_sky_fireworks_poster.webp" alt="Midnight Sky Fireworks Finale" loading="lazy" decoding="async">
             <div class="gallery-card__video-badge"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg> 0:11</div>
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Live Video Reel</span>
@@ -1072,7 +1070,7 @@ def get_body():
 
           <!-- 25. Reel 4: Pyrotechnic Sky Barrage (Video) -->
           <div class="gallery-card gallery-card--video" data-category="reels" data-index="25">
-            <img class="gallery-card__img" src="assets/reels/reel_aerial_pyro_shells_poster.jpg" alt="Pyrotechnic Sky Barrage Shells" loading="lazy">
+            <img class="gallery-card__img" src="assets/reels/reel_aerial_pyro_shells_poster.webp" alt="Pyrotechnic Sky Barrage Shells" loading="lazy" decoding="async">
             <div class="gallery-card__video-badge"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg> 0:11</div>
             <div class="gallery-card__overlay">
               <span class="gallery-card__category">Live Video Reel</span>
@@ -1425,7 +1423,7 @@ def get_body():
             <div class="map-overlay-card">
               <div class="map-overlay-title">
                 <span class="brand__logo-frame" style="width:26px;height:26px;padding:2px;">
-                  <img class="brand__logo" src="assets/logo.jpg" alt="Galaxy Pyrotech" width="26" height="26">
+                  <img class="brand__logo" src="assets/logo.webp" alt="Galaxy Pyrotech" width="26" height="26" loading="lazy" decoding="async">
                 </span>
                 <span>Galaxy Pyrotech Traders</span>
               </div>
@@ -1461,7 +1459,7 @@ def get_body():
         <div class="footer__brand">
           <a class="brand" href="#home">
             <div class="brand__logo-frame brand__logo-frame--lg">
-              <img class="brand__logo" src="assets/logo.jpg" alt="Galaxy Pyrotech logo" width="64" height="64">
+              <img class="brand__logo" src="assets/logo.webp" alt="Galaxy Pyrotech logo" width="64" height="64" loading="lazy" decoding="async">
             </div>
             <div class="brand__text">
               <span class="brand__name">Galaxy Pyrotech</span>
@@ -1533,7 +1531,7 @@ def get_body():
       <svg class="icon" aria-hidden="true" style="transform:rotate(-90deg)"><use href="#i-chevron"/></svg>
     </button>
     <div class="lightbox__content">
-      <img class="lightbox__img" id="lightbox-img" src="assets/hero_varmala_palace.jpg" alt="Galaxy Pyrotech showcase preview">
+      <img class="lightbox__img" id="lightbox-img" src="assets/hero_varmala_palace.webp" alt="Galaxy Pyrotech showcase preview" decoding="async">
       <video class="lightbox__video" id="lightbox-video" controls playsinline style="display:none;"></video>
       <div class="lightbox__caption">
         <h3 class="lightbox__title" id="lightbox-title"></h3>
